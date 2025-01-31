@@ -12,7 +12,7 @@ float dx,dy, distance,
       unx,uny,utx,uty,
       vnf1,vnf2,
       r1,r2,over,
-      e=0.8;
+      e=1;
 
 int main()
 {
@@ -113,7 +113,6 @@ while(window.isOpen())
 	}
 	for(i=0;i<N;i++)
 		window.draw(bolas[i]);
-	
 	
 	window.display();
 
